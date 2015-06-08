@@ -89,7 +89,7 @@ class TouchzoneExtract(object):
     
 if __name__ == '__main__':
     touchzone = TouchzoneExtract()
-    touchzone.load_log("C:\Users\jyhu\Downloads\subject\SD\src\sd_inpainting\log\log.csv")
+    touchzone.load_log("C:\Users\jyhu\Downloads\subject\SD\src\log\log.csv")
     
     touchzone.extract_touchzone() 
     touchzone.print_touchzone() 
